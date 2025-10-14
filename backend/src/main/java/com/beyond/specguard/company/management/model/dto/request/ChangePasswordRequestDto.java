@@ -3,12 +3,14 @@ package com.beyond.specguard.company.management.model.dto.request;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Getter
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class ChangePasswordRequestDto {
 
     @NotBlank(message = "현재 비밀번호를 입력하세요")

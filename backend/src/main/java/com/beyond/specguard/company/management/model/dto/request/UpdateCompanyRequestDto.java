@@ -3,12 +3,14 @@ package com.beyond.specguard.company.management.model.dto.request;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class UpdateCompanyRequestDto {
 
     @Size(max = 20)
