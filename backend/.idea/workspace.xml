@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78d23c8a-e458-416d-a720-e2007cb45d91" name="변경" comment="[Feat] profiles test 추가.">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins-values.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/BackendApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/admin/controller/AdminAuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/admin/model/dto/request/InternalAdminRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/admin/model/dto/response/InternalAdminResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/admin/model/entity/InternalAdmin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/admin/model/repository/InternalAdminRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/admin/model/service/InternalAdminDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/admin/model/service/InternalAdminDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/admin/model/service/InternalAdminService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/admin/model/service/InternalAdminServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/applicant/controller/ApplyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/exception/AuthException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/exception/errorcode/AuthErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/configurer/CommonSecurityConfigurer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/filter/AdminLoginFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/filter/ClientLoginFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/filter/JwtFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/filter/ResumeLoginFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/handler/local/CustomFailureHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/handler/local/CustomSuccessHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/handler/oauth2/OAuth2FailureHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/handler/oauth2/OAuth2SuccessHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/provider/AdminAuthenticationProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/provider/ClientAuthenticationProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/provider/ResumeAuthenticationProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/resolver/CustomOAuth2AuthorizationRequestResolver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/token/AdminAuthenticationToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/token/ApplicantAuthenticationToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/auth/model/token/ClientAuthenticationToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/certificate/controller/CertificateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/certificate/model/config/EasyCodefClientInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/certificate/model/dto/CertificateVerifyResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/certificate/model/dto/CodefVerificationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/certificate/model/dto/CodefVerificationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/certificate/model/entity/CertificateVerification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/certificate/model/repository/CertificateVerificationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/certificate/model/service/CertificateVerificationCodefService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/certificate/model/service/CertificateVerificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/certificate/model/service/CodefClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/certificate/util/CertificateNumberUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/config/AsyncConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/config/GitHubRestTemplateConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/config/MailConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/config/OpenApiConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/config/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/config/StaticResourceConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/config/VerifyConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/config/WebClientConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/exception/CustomException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/exception/ErrorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/exception/RestAccessDeniedHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/exception/RestAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/exception/errorcode/CommonErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/exception/errorcode/ErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/jwt/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/properties/AppProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/util/CookieUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/util/OAuth2StateUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/util/TokenResponseWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/validation/Create.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/common/validation/Update.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/controller/AuthController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/dto/request/InviteCheckRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/dto/request/InviteSignupRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/dto/request/LoginRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/dto/request/SignupRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/dto/response/GoogleResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/dto/response/InviteCheckResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/dto/response/NaverResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/dto/response/OAuth2Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/dto/response/ReissueResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/dto/response/SignupResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/dto/response/TokenResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/entity/ClientCompany.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/entity/ClientUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/repository/ClientCompanyRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/repository/ClientUserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/service/CustomUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/service/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/service/InviteSignupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/service/LogoutService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/service/RedisTokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/service/ReissueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/service/SignupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/service/oauth2/CustomOAuth2UserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/service/oauth2/CustomOAuth2UserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/common/model/service/oauth2/TokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/invite/controller/InviteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/invite/exception/InviteException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/invite/exception/errorcode/InviteErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/invite/model/dto/request/InviteRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/invite/model/dto/response/InviteResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/invite/model/entity/InviteEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/invite/model/repository/InviteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/invite/model/service/InviteSendGridService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/invite/model/service/InviteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/invite/model/service/InviteValidator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/management/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/management/model/dto/request/ChangePasswordRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/management/model/dto/request/UpdateCompanyRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/management/model/dto/request/UpdateUserRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/management/model/service/CompanyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/management/model/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/company/resume/controller/CompanyResumeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/controller/CompanyTemplateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/exception/ErrorCode/CompanyTemplateErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/dto/command/CreateBasicCompanyTemplateCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/dto/command/CreateCompanyTemplateFieldCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/dto/command/CreateDetailCompanyTemplateCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/dto/command/SearchTemplateCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/dto/command/UpdateTemplateBasicCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/dto/command/UpdateTemplateDetailCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/dto/request/CompanyTemplateBasicRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/dto/request/CompanyTemplateDetailRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/dto/request/TemplateFieldRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/dto/response/CompanyTemplateListResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/dto/response/CompanyTemplateResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/dto/response/TemplateFieldResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/entity/CompanyTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/entity/CompanyTemplateField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/repository/CompanyTemplateFieldRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/repository/CompanyTemplateRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/service/CompanyTemplateFieldService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/service/CompanyTemplateFieldServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/service/CompanyTemplateService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/service/CompanyTemplateServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/companytemplate/model/spec/CompanyTemplateSpecification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/crawling/dto/GitMetadataResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/crawling/entity/CrawlingResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/crawling/entity/GitHubMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/crawling/entity/PortfolioResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/crawling/repository/CrawlingResultRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/crawling/repository/GithubMetadataRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/crawling/repository/PortfolioResultRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/crawling/service/GitHubMetadataService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/controller/EvaluationProfileController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/exception/errorcode/EvaluationProfileErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/dto/command/CreateEvaluationProfileCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/dto/command/CreateEvaluationWeightCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/dto/command/GetEvaluationProfileCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/dto/command/SearchEvaluationProfileCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/dto/command/UpdateEvaluationProfileCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/dto/request/EvaluationProfileRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/dto/response/EvaluationProfileListResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/dto/response/EvaluationProfileResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/entity/EvaluationProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/entity/EvaluationWeight.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/repository/EvaluationProfileRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/repository/EvaluationWeightRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/service/EvaluationProfileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/service/EvaluationProfileServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/service/EvaluationWeightService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/evaluationprofile/model/service/EvaluationWeightServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/event/CrawlingCompletionScheduler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/event/ResumeSubmittedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/event/client/KeywordNlpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/event/client/TemplateNlpClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/event/client/VelogCrawlerClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/event/dto/BaseResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/event/dto/KeywordRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/event/dto/KeywordResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/event/dto/SummaryRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/event/dto/SummaryResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/event/listener/CertificateVerificationEventListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/event/listener/ResumeLinkProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/event/listener/ResumeSubmittedCrawlingListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/event/listener/ResumeTemplateAnalysisListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/githubcrawling/controller/GitHubController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/githubcrawling/exception/GitException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/githubcrawling/exception/errorcode/GitErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/githubcrawling/model/dto/GitHubStatsDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/githubcrawling/model/service/GitHubApiClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/githubcrawling/model/service/GitHubService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/githubcrawling/util/GitHubUrlParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/notioncrawling/dto/NotionPageDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/notioncrawling/service/PublicNotionCrawlerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/controller/ResumeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/exception/errorcode/ResumeErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/request/CompanyTemplateResponseDraftUpsertRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/request/ResumeAggregateUpdateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/request/ResumeBasicCreateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/request/ResumeCertificateUpsertRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/request/ResumeCreateRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/request/ResumeEducationUpsertRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/request/ResumeExperienceUpsertRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/request/ResumeLinkUpsertRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/request/ResumeLoginRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/request/ResumeSubmitRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/response/CompanyTemplateResponseResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/response/ResumeBasicResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/response/ResumeCertificateResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/response/ResumeEducationResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/response/ResumeExperienceResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/response/ResumeGitSummaryResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/response/ResumeLinkResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/response/ResumeListResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/response/ResumeResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/dto/response/ResumeSubmitResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/entity/CompanyFormSubmission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/entity/CompanyTemplateResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/entity/CompanyTemplateResponseAnalysis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/entity/Resume.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/entity/ResumeBasic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/entity/ResumeCertificate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/entity/ResumeEducation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/entity/ResumeExperience.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/entity/ResumeLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/job/ResumeCleanupScheduler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/repository/CompanyFormSubmissionRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/repository/CompanyTemplateResponseAnalysisRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/repository/CompanyTemplateResponseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/repository/ResumeBasicRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/repository/ResumeCertificateRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/repository/ResumeEducationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/repository/ResumeExperienceRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/repository/ResumeLinkRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/repository/ResumeRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/service/LocalFileStorageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/service/ResumeDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/service/ResumeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/resume/model/spec/ResumeSpecification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/controller/ValidationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/exception/errorcode/ValidationErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/dto/request/ValidationCalculateRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/dto/request/ValidationLogCommentRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/dto/request/ValidationPercentileRequestDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/dto/response/ValidationFinalSummaryResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/dto/response/ValidationResultLogResponseDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/entity/ValidationIssue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/entity/ValidationResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/entity/ValidationResultLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/repository/CalculateQueryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/repository/ValidationIssueRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/repository/ValidationResultLogRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/repository/ValidationResultRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/service/ValidationIssueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/service/ValidationResultLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/service/ValidationResultLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/service/ValidationResultService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/model/service/ValidationResultServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/validation/util/KeywordUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/controller/EmailVerificationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/exception/VerifyException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/exception/errorcode/VerifyErrorCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/model/dto/VerifyDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/model/entity/ApplicantEmailVerification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/model/entity/CompanyEmailVerification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/model/entity/EmailVerificationBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/model/entity/EmailVerifyStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/model/repository/ApplicantEmailVerificationRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/model/repository/CompanyEmailVerificationRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/model/repository/EmailVerifyRedisRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/model/service/EmailVerificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/model/service/VerifySendGridService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/model/type/VerifyTarget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beyond/specguard/verification/util/EmailUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/beyond/specguard/auth/model/handler/local/CustomSuccessHandlerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/beyond/specguard/company/common/model/service/LogoutServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/beyond/specguard/company/common/model/service/SignupServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/beyond/specguard/companytemplate/model/service/CompanyTemplateServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/beyond/specguard/model/service/ChangePasswordTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/beyond/specguard/model/service/DeleteClientCompanyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/beyond/specguard/model/service/DeleteClientUserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/beyond/specguard/model/service/UpdateClientCompanyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/beyond/specguard/model/service/UpdateClientUserTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/beyond/specguard/resume/model/service/ResumeServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/beyond/specguard/validation/model/service/ValidationResultServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application-test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/images/ERD2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/images/erd.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/images/상원님.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/images/아키택쳐.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/images/이원진.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/images/인화님.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/images/정우님.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/images/택곤님.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/images/현원님.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/core/errors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/crawlers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/crawlers/velog_crawler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/routers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/routers/crawlingResult.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/routers/keywords.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/routers/summary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/routers/velog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/schemas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/services/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/services/crawler_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/services/gemini_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/services/gemini_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/utils/codec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/utils/dates.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/app/utils/text.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/poetry.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/pyproject.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/sitecustomize.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python-server/tmp_dbcheck.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpecGuard" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpecGuard" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SpecGuard" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Spring Repository" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Record" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="feature/9-기업-회원가입-로그인-단위-tests" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;viroovr&quot;
+  }
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: [
+    {
+      &quot;id&quot;: {
+        &quot;id&quot;: &quot;PR_kwDOPPkLms6l8W0g&quot;,
+        &quot;number&quot;: 53
+      },
+      &quot;lastSeen&quot;: 1756697310501
+    }
+  ]
+}</component>
+  <component name="GitRewordedCommitMessages">
+    <option name="commitMessagesMapping">
+      <RewordedCommitMessageMapping>
+        <option name="originalMessage" value="feat 계산 성공 테스트 코드" />
+        <option name="rewordedMessage" value="refactor persistenceContext 어노테이션 제거 &#10;&#10;chore gitignore에 테스트 디렉토리 제거" />
+      </RewordedCommitMessageMapping>
+    </option>
+    <option name="currentCommit" value="1" />
+    <option name="onto" value="b556d4c09849698e16097ff3f01679688860a70e" />
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:beyond-sw-camp/be18-4th-2team-project.git&quot;,
+    &quot;accountId&quot;: &quot;0b18b195-6a61-4154-82ed-8dbf69e2c076&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="318CsQHC7xHn1edRs67DTEQ4ZjM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.'com.beyond.specguard.auth.model.handler.local'에 있는 테스트.executor": "Run",
+    "Gradle.'com.beyond.specguard.company.common.model.service'에 있는 테스트.executor": "Run",
+    "Gradle.ValidationResultServiceImplTest.calculateAndSave_ResumeUpdateFailed_logError.executor": "Run",
+    "Gradle.ValidationResultServiceImplTest.calculateAndSave_givenCompleteData_returnValidationResultId.executor": "Run",
+    "Gradle.ValidationResultServiceImplTest.calculateAndSave_givenNoRepoData_returnZeroScoreSave.executor": "Run",
+    "Gradle.ValidationResultServiceImplTest.calculateAndSave_givenRepositoryException_saveIssueAndLogsOnError.executor": "Run",
+    "Gradle.ValidationResultServiceImplTest.calculateAndSave_레포데이터없음_0점계산후정상저장.executor": "Run",
+    "Gradle.ValidationResultServiceImplTest.executor": "Run",
+    "Gradle.backend [build].executor": "Run",
+    "Gradle.backend [clean].executor": "Run",
+    "Gradle.backend 빌드.executor": "Run",
+    "Gradle.소스 다운로드.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.BackendApplication.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "develop",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_directory_selection": "C:/Users/Playdata/Documents/be18-2nd-SpecGuard/backend/src/main/java/com/beyond/specguard/auth/model/token",
+    "last_opened_file_path": "C:/Users/Playdata/Documents/be18-4th-2team-project/backend/src/main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.beyond.specguard.resume.model.dto.response" />
+      <recent name="com.beyond.specguard.resume" />
+      <recent name="com.beyond.specguard.applicant.model.service" />
+      <recent name="com.beyond.specguard.auth.model.token" />
+      <recent name="com.beyond.specguard.auth.model.service.common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Playdata\Documents\be18-4th-2team-project\backend\src\main" />
+      <recent name="C:\Users\Playdata\Documents\be18-2nd-SpecGuard\backend\src\main\java\com\beyond\specguard\evaluationprofile" />
+      <recent name="C:\Users\Playdata\Documents\be18-2nd-SpecGuard\backend\src\main\java\com\beyond\specguard" />
+      <recent name="C:\Users\Playdata\Documents\be18-2nd-SpecGuard\backend\src\main\resources" />
+      <recent name="C:\Users\Playdata\Documents\be18-2nd-SpecGuard\backend\src\main\java\com\beyond\specguard\vo" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.beyond.specguard.auth.model.token" />
+    </key>
+    <key name="MoveInnerDialog.RECENTS_KEY">
+      <recent name="com.beyond.specguard.auth.model.token" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.beyond.specguard.auth.model.service" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.beyond.specguard.validation.model.service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.beyond.specguard.auth.model.provider" />
+      <recent name="com.beyond.specguard.certificate.model.dto" />
+      <recent name="com.beyond.specguard.common.exception.errorcode" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.'com.beyond.specguard.company.common.model.service'에 있는 테스트">
+    <configuration name="ValidationResultServiceImplTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.beyond.specguard.validation.model.service.ValidationResultServiceImplTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ValidationResultServiceImplTest.calculateAndSave_ResumeUpdateFailed_logError" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.beyond.specguard.validation.model.service.ValidationResultServiceImplTest.calculateAndSave_ResumeUpdateFailed_logError&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="ValidationResultServiceImplTest.calculateAndSave_givenRepositoryException_saveIssueAndLogsOnError" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.beyond.specguard.validation.model.service.ValidationResultServiceImplTest.calculateAndSave_givenRepositoryException_saveIssueAndLogsOnError&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="'com.beyond.specguard.auth.model.handler.local'에 있는 테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.beyond.specguard.auth.model.handler.local.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="'com.beyond.specguard.company.common.model.service'에 있는 테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.beyond.specguard.company.common.model.service.*&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="SpecGuard.main" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.beyond.specguard.BackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.'com.beyond.specguard.company.common.model.service'에 있는 테스트" />
+        <item itemvalue="Gradle.'com.beyond.specguard.auth.model.handler.local'에 있는 테스트" />
+        <item itemvalue="Gradle.ValidationResultServiceImplTest" />
+        <item itemvalue="Gradle.ValidationResultServiceImplTest.calculateAndSave_ResumeUpdateFailed_logError" />
+        <item itemvalue="Gradle.ValidationResultServiceImplTest.calculateAndSave_givenRepositoryException_saveIssueAndLogsOnError" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="StructureViewState">
+    <option name="selectedTab" value="논리" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="78d23c8a-e458-416d-a720-e2007cb45d91" name="변경" comment="" />
+      <created>1754896520516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1754896520516</updated>
+      <workItem from="1754896521656" duration="196000" />
+      <workItem from="1754897048560" duration="1757000" />
+      <workItem from="1754968525772" duration="208000" />
+      <workItem from="1754969828097" duration="793000" />
+      <workItem from="1755159706988" duration="1154000" />
+      <workItem from="1755476153927" duration="602000" />
+      <workItem from="1755476909689" duration="3141000" />
+      <workItem from="1755561769818" duration="7693000" />
+      <workItem from="1755669715928" duration="806000" />
+      <workItem from="1755735213112" duration="17803000" />
+      <workItem from="1755821368870" duration="7534000" />
+      <workItem from="1756079608814" duration="9703000" />
+      <workItem from="1756340229215" duration="14947000" />
+      <workItem from="1756425269401" duration="25710000" />
+      <workItem from="1756686280373" duration="9220000" />
+      <workItem from="1756784984135" duration="10430000" />
+      <workItem from="1756858192841" duration="3332000" />
+      <workItem from="1756862975730" duration="23717000" />
+      <workItem from="1756944995678" duration="27411000" />
+      <workItem from="1757034868013" duration="22341000" />
+      <workItem from="1757290020483" duration="29901000" />
+      <workItem from="1757376792262" duration="28232000" />
+      <workItem from="1757465448534" duration="26289000" />
+      <workItem from="1757550384756" duration="27708000" />
+      <workItem from="1757635185833" duration="29948000" />
+      <workItem from="1757894522427" duration="37778000" />
+      <workItem from="1757986519811" duration="23639000" />
+      <workItem from="1758067876020" duration="25323000" />
+      <workItem from="1758155108219" duration="21441000" />
+      <workItem from="1758240590793" duration="3004000" />
+      <workItem from="1758250407211" duration="11662000" />
+      <workItem from="1758292296133" duration="1255000" />
+      <workItem from="1758363892767" duration="18130000" />
+      <workItem from="1758415751753" duration="14892000" />
+      <workItem from="1758456880597" duration="6035000" />
+      <workItem from="1758499907656" duration="23007000" />
+      <workItem from="1758588383680" duration="15223000" />
+      <workItem from="1758673214398" duration="25375000" />
+      <workItem from="1758768167885" duration="1073000" />
+      <workItem from="1758778469603" duration="2772000" />
+      <workItem from="1759194524499" duration="419000" />
+      <workItem from="1759283156160" duration="4023000" />
+      <workItem from="1759496153789" duration="963000" />
+      <workItem from="1759739763923" duration="780000" />
+      <workItem from="1760234852678" duration="2875000" />
+      <workItem from="1760314216598" duration="1268000" />
+      <workItem from="1760315973320" duration="3477000" />
+      <workItem from="1760493605507" duration="2323000" />
+    </task>
+    <task id="LOCAL-00033" summary="Revert &quot;feat admin security config 분기 세부화&quot;&#10;&#10;This reverts commit c8370b23">
+      <option name="closed" value="true" />
+      <created>1757494044889</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1757494044889</updated>
+    </task>
+    <task id="LOCAL-00034" summary="refactor admin create">
+      <option name="closed" value="true" />
+      <created>1757494447348</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1757494447348</updated>
+    </task>
+    <task id="LOCAL-00035" summary="refactor admin create">
+      <option name="closed" value="true" />
+      <created>1757494526629</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1757494526629</updated>
+    </task>
+    <task id="LOCAL-00036" summary="refactor command, method name">
+      <option name="closed" value="true" />
+      <created>1757551869688</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1757551869688</updated>
+    </task>
+    <task id="LOCAL-00037" summary="feat 가중치 합 1.0 체크">
+      <option name="closed" value="true" />
+      <created>1757552984600</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1757552984600</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feat 가중치 합 1.0 에러코드">
+      <option name="closed" value="true" />
+      <created>1757553576641</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1757553576641</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feat refresh admin token">
+      <option name="closed" value="true" />
+      <created>1757554918560</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1757554918560</updated>
+    </task>
+    <task id="LOCAL-00040" summary="feat openapi swagger 어노테이션 달기, 생성시 responseDto 반환">
+      <option name="closed" value="true" />
+      <created>1757557063105</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1757557063106</updated>
+    </task>
+    <task id="LOCAL-00041" summary="refactor Loginfilters, merge conflicts">
+      <option name="closed" value="true" />
+      <created>1757562414185</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1757562414185</updated>
+    </task>
+    <task id="LOCAL-00042" summary="refactor Loginfilters, merge conflicts">
+      <option name="closed" value="true" />
+      <created>1757562446491</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1757562446491</updated>
+    </task>
+    <task id="LOCAL-00043" summary="refactor Loginfilters, merge conflicts">
+      <option name="closed" value="true" />
+      <created>1757562463441</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1757562463441</updated>
+    </task>
+    <task id="LOCAL-00044" summary="refactor service/ repository">
+      <option name="closed" value="true" />
+      <created>1757577867308</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1757577867308</updated>
+    </task>
+    <task id="LOCAL-00045" summary="refactor auth directory">
+      <option name="closed" value="true" />
+      <created>1757638505954</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1757638505954</updated>
+    </task>
+    <task id="LOCAL-00046" summary="feat applicantDetails">
+      <option name="closed" value="true" />
+      <created>1757638520758</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1757638520758</updated>
+    </task>
+    <task id="LOCAL-00047" summary="refactor Applicant Security Filter chain">
+      <option name="closed" value="true" />
+      <created>1757642240187</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1757642240187</updated>
+    </task>
+    <task id="LOCAL-00048" summary="feat 세션기반으로 변경 중">
+      <option name="closed" value="true" />
+      <created>1757645502078</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1757645502078</updated>
+    </task>
+    <task id="LOCAL-00049" summary="feat 지원자 세션기반으로 변경 완료">
+      <option name="closed" value="true" />
+      <created>1757657520054</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1757657520054</updated>
+    </task>
+    <task id="LOCAL-00050" summary="feat test resume service">
+      <option name="closed" value="true" />
+      <created>1757660127285</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1757660127286</updated>
+    </task>
+    <task id="LOCAL-00051" summary="refactor DetailsService">
+      <option name="closed" value="true" />
+      <created>1757662778711</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1757662778711</updated>
+    </task>
+    <task id="LOCAL-00052" summary="refactor directory">
+      <option name="closed" value="true" />
+      <created>1757666649513</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1757666649513</updated>
+    </task>
+    <task id="LOCAL-00053" summary="refactor directory">
+      <option name="closed" value="true" />
+      <created>1757666984463</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1757666984463</updated>
+    </task>
+    <task id="LOCAL-00054" summary="refactor directory">
+      <option name="closed" value="true" />
+      <created>1757666993358</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1757666993358</updated>
+    </task>
+    <task id="LOCAL-00055" summary="fix 이메일 인증 권한 활성화, 요금제 controller">
+      <option name="closed" value="true" />
+      <created>1757897232322</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1757897232323</updated>
+    </task>
+    <task id="LOCAL-00056" summary="feat swagger 어노테이션 삽입, securityconfig에 의한 작동 확인">
+      <option name="closed" value="true" />
+      <created>1757899746811</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1757899746811</updated>
+    </task>
+    <task id="LOCAL-00057" summary="refactor resume 생성">
+      <option name="closed" value="true" />
+      <created>1757902007326</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1757902007326</updated>
+    </task>
+    <task id="LOCAL-00058" summary="refactor upsert basic">
+      <option name="closed" value="true" />
+      <created>1757913593804</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1757913593804</updated>
+    </task>
+    <task id="LOCAL-00059" summary="refactor upsert 기업문항 응답">
+      <option name="closed" value="true" />
+      <created>1757935739559</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1757935739559</updated>
+    </task>
+    <task id="LOCAL-00060" summary="refactor 이력서 목록조회">
+      <option name="closed" value="true" />
+      <created>1757936329762</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1757936329762</updated>
+    </task>
+    <task id="LOCAL-00061" summary="refactor resume enum, directory">
+      <option name="closed" value="true" />
+      <created>1757936635407</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1757936635413</updated>
+    </task>
+    <task id="LOCAL-00062" summary="feat 이력서 자소서 응답 validation 추가">
+      <option name="closed" value="true" />
+      <created>1757994664162</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1757994664162</updated>
+    </task>
+    <task id="LOCAL-00063" summary="feat 이력서 목록 조회는 기업권한으로 변경. 목록 조회에 필터링들 추가. 반환되는 목록 dto 설정">
+      <option name="closed" value="true" />
+      <created>1758003753844</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1758003753845</updated>
+    </task>
+    <task id="LOCAL-00064" summary="refactor 자격증 진위여부는 자격증 도메인에서 진행">
+      <option name="closed" value="true" />
+      <created>1758003801987</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1758003801987</updated>
+    </task>
+    <task id="LOCAL-00065" summary="feat 로그인하면 resume정보들 서버에서 반환하도록 변경">
+      <option name="closed" value="true" />
+      <created>1758076980575</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1758076980575</updated>
+    </task>
+    <task id="LOCAL-00066" summary="fix 애매한 weight type 제거">
+      <option name="closed" value="true" />
+      <created>1758077135144</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1758077135144</updated>
+    </task>
+    <task id="LOCAL-00067" summary="refactor 사용하지 않는 레코드 삭제">
+      <option name="closed" value="true" />
+      <created>1758087337541</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1758087337541</updated>
+    </task>
+    <task id="LOCAL-00068" summary="refactor 함수 위치">
+      <option name="closed" value="true" />
+      <created>1758093385996</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1758093385996</updated>
+    </task>
+    <task id="LOCAL-00069" summary="fix merge error">
+      <option name="closed" value="true" />
+      <created>1758094152290</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1758094152290</updated>
+    </task>
+    <task id="LOCAL-00070" summary="refactor resumeCertificate에 맞게 생성되도록 수정">
+      <option name="closed" value="true" />
+      <created>1758096626451</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1758096626451</updated>
+    </task>
+    <task id="LOCAL-00071" summary="feat 자격증 번호에서 api 요청에 맞게 전처리하는 유틸 추가">
+      <option name="closed" value="true" />
+      <created>1758097332201</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1758097332201</updated>
+    </task>
+    <task id="LOCAL-00072" summary="fix SUCCESS -&gt; COMPLETED">
+      <option name="closed" value="true" />
+      <created>1758155258278</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1758155258278</updated>
+    </task>
+    <task id="LOCAL-00073" summary="feat 지원자가 기업에 로그인할때, 공고 목록 게스트 권한으로 조회 api 추가, 우편번호 basic에 추가">
+      <option name="closed" value="true" />
+      <created>1758380981182</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1758380981182</updated>
+    </task>
+    <task id="LOCAL-00074" summary="feat 포폴 링크, 자격증 없이 업로드 가능하도록 변경.">
+      <option name="closed" value="true" />
+      <created>1758384176825</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1758384176826</updated>
+    </task>
+    <task id="LOCAL-00075" summary="feat 지원자 탬플릿 공고 내용 조회 api 추가">
+      <option name="closed" value="true" />
+      <created>1758457103853</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1758457103853</updated>
+    </task>
+    <task id="LOCAL-00076" summary="feat 탬플릿 조회에서 회사 리스트 반환되도록 수정">
+      <option name="closed" value="true" />
+      <created>1758462665351</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1758462665351</updated>
+    </task>
+    <task id="LOCAL-00077" summary="feat 계산 성공 테스트 코드">
+      <option name="closed" value="true" />
+      <created>1760236072069</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1760236072069</updated>
+    </task>
+    <task id="LOCAL-00078" summary="chore gitignore에 테스트 디렉토리 제거">
+      <option name="closed" value="true" />
+      <created>1760237345175</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1760237345175</updated>
+    </task>
+    <task id="LOCAL-00079" summary="feat 정합성 계산 로직 정상 데이터, 예외 케이스 테스트 코드 추가">
+      <option name="closed" value="true" />
+      <created>1760237563565</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1760237563566</updated>
+    </task>
+    <task id="LOCAL-00080" summary="chore 해당 파일은 테스트 커밋에 영향없어서 revert">
+      <option name="closed" value="true" />
+      <created>1760237650014</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1760237650014</updated>
+    </task>
+    <task id="LOCAL-00081" summary="[Feat] profiles test 추가.">
+      <option name="closed" value="true" />
+      <created>1760497773285</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1760497773285</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feature/3-feature-정합성-계산-단위-tests" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="refactor upsert certificates" />
+    <MESSAGE value="refactor upsert 기업문항 응답" />
+    <MESSAGE value="refactor 이력서 목록조회" />
+    <MESSAGE value="refactor resume enum, directory" />
+    <MESSAGE value="feat 이력서 자소서 응답 validation 추가" />
+    <MESSAGE value="feat 이력서 목록 조회는 기업권한으로 변경. 목록 조회에 필터링들 추가. 반환되는 목록 dto 설정" />
+    <MESSAGE value="refactor 자격증 진위여부는 자격증 도메인에서 진행" />
+    <MESSAGE value="refactor 프로필 사진 저장하도록 변경, login시 resume내용들 반환하도록 수정 중" />
+    <MESSAGE value="feat 로그인하면 resume정보들 서버에서 반환하도록 변경" />
+    <MESSAGE value="fix 애매한 weight type 제거" />
+    <MESSAGE value="refactor 사용하지 않는 레코드 삭제" />
+    <MESSAGE value="refactor 함수 위치" />
+    <MESSAGE value="fix merge error" />
+    <MESSAGE value="refactor resumeCertificate에 맞게 생성되도록 수정" />
+    <MESSAGE value="feat 자격증 번호에서 api 요청에 맞게 전처리하는 유틸 추가" />
+    <MESSAGE value="fix SUCCESS -&gt; COMPLETED" />
+    <MESSAGE value="feat 지원자가 기업에 로그인할때, 공고 목록 게스트 권한으로 조회 api 추가, 우편번호 basic에 추가" />
+    <MESSAGE value="feat 포폴 링크, 자격증 없이 업로드 가능하도록 변경." />
+    <MESSAGE value="feat 지원자 탬플릿 공고 내용 조회 api 추가" />
+    <MESSAGE value="feat 탬플릿 조회에서 회사 리스트 반환되도록 수정" />
+    <MESSAGE value="feat 계산 성공 테스트 코드" />
+    <MESSAGE value="chore gitignore에 테스트 디렉토리 제거" />
+    <MESSAGE value="feat 정합성 계산 로직 정상 데이터, 예외 케이스 테스트 코드 추가" />
+    <MESSAGE value="chore 해당 파일은 테스트 커밋에 영향없어서 revert" />
+    <MESSAGE value="[Feat] profiles test 추가." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Feat] profiles test 추가." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>
