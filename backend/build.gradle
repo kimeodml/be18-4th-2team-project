@@ -31,6 +31,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
+
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     // --- JPA & MariaDB ---
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
@@ -83,11 +84,11 @@ dependencies {
 
     // WebDriverManager (ChromeDriver 자동 다운로드)
     implementation 'io.github.bonigarcia:webdrivermanager:5.5.0'
-
-
 }
 
 
 tasks.named('test') {
     useJUnitPlatform()
+
+    jvmArgs "-javaagent:${configurations.testRuntimeClasspath.find { it.name.contains('mockito-core') }}", '-Xshare:off'
 }
