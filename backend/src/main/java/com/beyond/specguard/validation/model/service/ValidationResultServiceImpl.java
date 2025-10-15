@@ -1,7 +1,6 @@
 package com.beyond.specguard.validation.model.service;
 
 import com.beyond.specguard.common.exception.CustomException;
-import com.beyond.specguard.common.exception.errorcode.CommonErrorCode;
 import com.beyond.specguard.company.common.model.entity.ClientUser;
 import com.beyond.specguard.evaluationprofile.model.entity.EvaluationWeight.WeightType;
 import com.beyond.specguard.resume.model.entity.Resume;
@@ -24,14 +23,25 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import jakarta.persistence.EntityManager;
-import jakarta.persistence.PersistenceContext;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.EnumMap;
+import java.util.EnumSet;
+import java.util.HashMap;
+import java.util.LinkedHashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Objects;
+import java.util.Optional;
+import java.util.Set;
+import java.util.UUID;
 import java.util.function.BiFunction;
 import java.util.stream.Collectors;
 
@@ -46,8 +56,7 @@ public class ValidationResultServiceImpl implements ValidationResultService {
     private final ResumeRepository resumeRepository;
     private final ValidationIssueRepository validationIssueRepository;
 
-    @PersistenceContext
-    private EntityManager em;
+    private final EntityManager em;
 
     private static final ObjectMapper OM = new ObjectMapper();
 
