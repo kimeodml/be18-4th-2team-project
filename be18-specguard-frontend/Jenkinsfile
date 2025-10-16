@@ -1,0 +1,67 @@
+pipeline {
+    environment {
+        DOCKER_IMAGE_NAME_FE = 'kimeodml/specguard-frontend'
+        DOCKER_CREDENTIALS_ID = 'dockerhub-access'
+        DISCORD_WEBHOOK_CREDENTIALS_ID = 'specguard-frontend-webhook'
+    }
+
+    stages {
+        stage('Frontend Build') {
+            steps {
+                container('node') {
+                    sh '''
+                        npm install
+                        npm run build
+                    '''
+                }
+            }
+        }
+
+        stage('Image Build & Push - Frontend') {
+            steps {
+                container('docker') {
+                    script {
+                        def dockerImageVersion = "${env.BUILD_NUMBER}"
+
+                        withCredentials([usernamePassword(
+                            credentialsId: DOCKER_CREDENTIALS_ID,
+                            usernameVariable: 'DOCKER_USERNAME',
+                            passwordVariable: 'DOCKER_PASSWORD'
+                        )]) {
+                            sh 'echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin'
+                        }
+
+                        withEnv(["DOCKER_IMAGE_VERSION=${dockerImageVersion}"]) {
+                            sh 'docker -v'
+                            sh 'echo $DOCKER_IMAGE_NAME_FE:$DOCKER_IMAGE_VERSION'
+                            sh 'docker build --no-cache -t $DOCKER_IMAGE_NAME_FE:$DOCKER_IMAGE_VERSION ./'
+                            sh 'docker image inspect $DOCKER_IMAGE_NAME_FE:$DOCKER_IMAGE_VERSION'
+                            sh 'docker push $DOCKER_IMAGE_NAME_FE:$DOCKER_IMAGE_VERSION'
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            // string()
+            //   - 자격 증명 중 시크릿 텍스트를 가져온다.
+            withCredentials([string(
+                credentialsId: DISCORD_WEBHOOK_CREDENTIALS_ID,
+                variable: 'DISCORD_WEBHOOK_URL'
+            )]) {
+                discordSend description: """
+                제목 : ${currentBuild.displayName} 빌드
+                결과 : ${currentBuild.result}
+                실행 시간 : ${currentBuild.duration / 1000}s
+                """,
+                result: currentBuild.currentResult,
+                title: "${env.JOB_NAME} : ${currentBuild.displayName}", 
+                webhookURL: "${DISCORD_WEBHOOK_URL}"
+            }
+
+        }
+    }
+}
