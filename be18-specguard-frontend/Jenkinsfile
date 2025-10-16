@@ -13,10 +13,6 @@ pipeline {
                 command:
                 - cat
                 tty: true
-              volumes:
-              - name: docker-socket
-                hostPath:
-                  path: "/var/run/docker.sock"
               - name: docker
                 image: docker:28.5.1-cli-alpine3.22
                 command:
@@ -55,7 +51,9 @@ pipeline {
             steps {
                 container('docker') {
                     script {
-                        def dockerImageVersion = "${env.BUILD_NUMBER}"
+                        def buildNumber = "${env.BUILD_NUMBER}"
+
+                        sh 'docker logout'
 
                         withCredentials([usernamePassword(
                             credentialsId: DOCKER_CREDENTIALS_ID,
@@ -65,7 +63,7 @@ pipeline {
                             sh 'echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin'
                         }
 
-                        withEnv(["DOCKER_IMAGE_VERSION=${dockerImageVersion}"]) {
+                        withEnv(["DOCKER_IMAGE_VERSION=${buildNumber}"]) {
                             sh 'docker -v'
                             sh 'echo $DOCKER_IMAGE_NAME_FE:$DOCKER_IMAGE_VERSION'
                             sh 'docker build --no-cache -t $DOCKER_IMAGE_NAME_FE:$DOCKER_IMAGE_VERSION ./'
@@ -95,7 +93,7 @@ pipeline {
                 title: "${env.JOB_NAME} : ${currentBuild.displayName}", 
                 webhookURL: "${DISCORD_WEBHOOK_URL}"
 
-                
+
             }
 
         }
