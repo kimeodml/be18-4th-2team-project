@@ -68,11 +68,14 @@ pipeline {
                         }
 
                         withEnv(["DOCKER_IMAGE_VERSION=${buildNumber}"]) {
-                            sh 'docker -v'
-                            sh 'echo $DOCKER_IMAGE_NAME_FE:$DOCKER_IMAGE_VERSION'
-                            sh 'docker build --no-cache -t $DOCKER_IMAGE_NAME_FE:$DOCKER_IMAGE_VERSION ./'
-                            sh 'docker image inspect $DOCKER_IMAGE_NAME_FE:$DOCKER_IMAGE_VERSION'
-                            sh 'docker push $DOCKER_IMAGE_NAME_FE:$DOCKER_IMAGE_VERSION'
+                            dir('be18-specguard-frontend') {
+                                sh 'docker -v'
+                                sh 'echo $DOCKER_IMAGE_NAME_FE:$DOCKER_IMAGE_VERSION'
+                                sh 'docker build --no-cache -t $DOCKER_IMAGE_NAME_FE:$DOCKER_IMAGE_VERSION ./'
+                                sh 'docker image inspect $DOCKER_IMAGE_NAME_FE:$DOCKER_IMAGE_VERSION'
+                                sh 'docker push $DOCKER_IMAGE_NAME_FE:$DOCKER_IMAGE_VERSION'
+                            }
+                            
                         }
                     }
                 }
