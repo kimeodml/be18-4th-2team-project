@@ -39,10 +39,14 @@ pipeline {
         stage('Frontend Build') {
             steps {
                 container('node') {
-                    sh '''
-                        npm install
-                        npm run build
-                    '''
+                    dir('be18-specguard-frontend') {
+                        sh '''
+                            npm install
+                            npm run build
+                        '''
+                    }
+
+
                 }
             }
         }
