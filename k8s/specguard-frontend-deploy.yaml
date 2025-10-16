@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: specguard-frontend-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: specguard-frontend
+  template:
+    metadata:
+      labels:
+        app: specguard-frontend
+    spec:
+      containers:
+      - name: specguard-frontend
+        image: kimeodml/specguard-frontend:1.0
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "500m"
+          limits:
+            memory: "256Mi"
+            cpu: "1000m"
+        ports:
+        - containerPort: 80
