@@ -94,6 +94,7 @@ pipeline {
                                 string(name: 'DOCKER_IMAGE_VERSION', value: "${DOCKER_IMAGE_VERSION}"),
                                 string(name: 'DID_BUILD_APP', value: "${env.SHOULD_BUILD_APP}")
                             ], 
+                            propagate: false,
                             wait: true
                     }
                     
