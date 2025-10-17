@@ -91,7 +91,8 @@ pipeline {
                         // 다른 잡을 빌드하면서 파라미터 전달
                         build job: 'specguard-k8s-manifests', 
                             parameters: [
-                                string(name: 'DOCKER_IMAGE_VERSION', value: "${DOCKER_IMAGE_VERSION}")
+                                string(name: 'DOCKER_IMAGE_VERSION', value: "${DOCKER_IMAGE_VERSION}"),
+                                string(name: 'DID_BUILD_APP', value: "${env.SHOULD_BUILD_APP}")
                             ], 
                             wait: true
                     }
